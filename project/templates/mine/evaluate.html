@@ -1,0 +1,36 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+{% block title %}评价{% endblock title %}
+
+{% block link %}
+    <link type="text/css" rel="stylesheet" href="{% static 'mine/css/evaluate.css' %}">
+{% endblock link %}
+
+{#{% block script %}#}
+{#<script type="text/javascript" src="{% static 'mine/js/evaluate.js' %}"></script>#}
+{#{% endblock script %}#}
+
+{% block main %}
+    <div id="evaluateDiv">
+    <div  class="tou">
+        <div>
+            <a href="/mine/">
+                <button type="button" class="btn btn-info">
+                    <span class="glyphicon glyphicon-menu-left" aria-hidden="true">
+                    </span>
+                </button>
+            </a>
+        </div>
+
+        <div id="pingjia">
+            <label for="our">您的评价</label>
+        </div>
+    </div>
+
+
+        <div class="area">
+            <textarea class="form-control" name="" id="" cols="30" rows="5" placeholder="请输入您的评价"></textarea>
+        </div>
+    </div>
+{% endblock %}

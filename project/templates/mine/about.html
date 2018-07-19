@@ -1,0 +1,38 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+{% block title %}关于我们{% endblock title %}
+
+{% block link %}
+    <link type="text/css" rel="stylesheet" href="{% static 'mine/css/about.css' %}">
+{% endblock link %}
+
+{#{% block script %}#}
+{#<script type="text/javascript" src="{% static 'mine/js/evaluate.js' %}"></script>#}
+{#{% endblock script %}#}
+
+{% block main %}
+    <div id="aboutDiv">
+        <div id="top">
+            <div id="return">
+                <a href="/mine/">
+                    <button type="button" class="btn btn-info">
+                <span class="glyphicon glyphicon-menu-left" aria-hidden="true">
+                </span>
+                    </button>
+                </a>
+            </div>
+            <div id="us">
+                <label for="our">关于我们</label>
+            </div>
+        </div>
+
+
+        <div id="body">
+
+        </div>
+
+
+
+    </div>
+{% endblock %}

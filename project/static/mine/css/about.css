@@ -1,0 +1,34 @@
+#aboutDiv {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    background: #EFEFEF;
+    overflow: hidden;
+}
+
+#aboutDiv #top{
+    width: 100%;
+    height: 1.8rem;
+    background: white;
+}
+
+#aboutDiv #top div{
+    width: 50%;
+    line-height: 1.8rem;
+}
+
+#aboutDiv #top #us{
+    position: fixed;
+    top: 0;
+    right: 1rem;
+
+}
+
+#aboutDiv #body{
+    position: fixed;
+    top: 1.9rem;
+    width: 100%;
+    height: 40%;
+    background: white;
+}

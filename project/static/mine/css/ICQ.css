@@ -1,0 +1,34 @@
+#ICQDiv {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    background: #EFEFEF;
+    overflow: hidden;
+}
+
+#ICQDiv .tou {
+    width: 100%;
+    height: 1.8rem;
+    background: white;
+
+}
+
+#ICQDiv .tou #help {
+    position: fixed;
+    top: 0;
+    right: 40%;
+    line-height: 1.8rem;
+}
+
+#ICQDiv .tou #ret{
+    line-height: 1.8rem;
+}
+
+#ICQDiv .service p{
+    height: 1.8rem;
+    line-height: 1.8rem;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
